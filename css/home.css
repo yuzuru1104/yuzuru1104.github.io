@@ -1,0 +1,39 @@
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Recursive', sans-serif;
+    background-color: #F5EEF8;
+    color: #fe478d;
+    line-height: 1.6;
+    padding: 24px; /* 减小 padding 值 */
+    font-size: 24px; /* 减小字体大小 */
+    text-align: center; /* 居中对齐 */
+}
+
+
+
+/* Profile section styles */
+.profile p {
+    font-size: 16px;
+    color: #fe478d;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.email-link {
+    display: inline-block;
+}
+
+.email-icon {
+    width: 20px; /* 调整图标宽度 */
+    height: 20px; /* 调整图标高度 */
+}

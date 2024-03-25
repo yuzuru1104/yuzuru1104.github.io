@@ -1,0 +1,39 @@
+/* blog.css 文件中 */
+
+/* Global Styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Recursive', sans-serif; /* 添加字体样式 */
+}
+
+/* Style the header and navigation */
+header {
+  background-color: #F5EEF8; /* 设置导航栏背景色 */
+  color: #fff; /* 设置文字颜色 */
+  padding: 10px 0; /* 设置上下内边距 */
+  font-family: 'Recursive', sans-serif;
+}
+
+nav ul {
+  display: flex; /* 设置导航栏横向显示 */
+  justify-content: center; /* 水平居中导航链接 */
+  font-family: 'Recursive', sans-serif;
+}
+
+nav ul li {
+  margin: 0 20px; /* 设置导航链接之间的水平间距 */
+}
+
+nav ul li a {
+  color: #76005b; /* 设置导航链接文字颜色 */
+  text-decoration: none; /* 移除链接下划线 */
+  font-size: 28px; /* 设置链接文字大小 */
+  font-weight: bold; /* 设置链接文字粗体 */
+  font-family: 'Recursive', sans-serif;
+}
+
+nav ul li a:hover {
+  color: #fe478d; /* 鼠标悬停时链接文字颜色 */
+}

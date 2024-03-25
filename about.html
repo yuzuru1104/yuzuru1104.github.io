@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 引用导航栏 -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <!-- 修改链接到 home 页面 -->
+        <li><a href="/about.html">About</a></li>
+        <!-- blog 页面链接 -->
+        <li><a href="/blog.html">Blog</a></li>
+        <!-- cv 页面链接 -->
+        <li><a href="/cv.html">CV</a></li>
+        <!-- Add a new page link -->
+        <li><a href="/new-page.html">New Page</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+    <!-- 新增的顶部照片区域 -->
+    <div class="top-image">
+        <img src="plant pink.jpeg" alt="plant pink">
+        <div class="image-text">
+            <h2>LI Shiying</h2>
+        </div>
+    </div>
+
+    <!-- 原有的内容区域 -->
+    <div class="container">
+        <div class="profile">
+            <div class="profile-img">
+                <img src="your photo.jpg" alt="Your Photo">
+            </div>
+            <div class="profile-text">
+                <h1>About me</h1>
+                <p>Harbin</p>
+            </div>
+        </div>
+        <div class="courses">
+            <h2>Main Courses</h2>
+            <div class="main-courses">
+                <p>General Chemistry  </p>
+                <p>Botany             </p>
+                <p>Plant Biochemistry </p>
+                <p>Soil and Fertilizer Science </p>
+                <p>Analytical Chemistry</p>
+                <p>Organic Chemistry</p>
+                <P>Genetics</P>
+                <p>Biotechnology Principle of Horticultural Crops</p>
+                <p>Plant Physiology</p>
+                <p>Horticulture Under Structure</p>
+                <p>Flower Science</p>
+                <p>Vegetable Culture</p>
+            </div>
+            <h2>Other Courses</h2>
+            <div class="other-courses">
+                <p>Fruit and Vegetable Processing</p>
+                <p>Turfgrass Science</p>
+                <p>Experiment of Genetics</p>
+                <p>Experiment of Biotechnology Principle of Horticultural Crops</p>
+
+            </div>
+            <h2>Skills I Have</h2>
+            <div class="Skills I Have">
+                <p><mark>I learned the following methods:</mark></p>
+                <p>Principles and basic techniques of PCR</p>
+                <p>Operation of the PCR instrument</p>
+                <p>Method for detecting DNA by agarose gel electrophoresis</p>
+                <p>CTAB method and basic principles for extracting total DNA from 
+                    horticultural plant tissues</p>
+        
+            </div>
+            <div class="Other skills">
+                <p><mark>Other Skills:</mark></p>
+                <p>SPSS</p>
+                <p>Graph pad Prism</p>
+                <p>CSS</p>
+                <p><mark>I probably missed all kind of important stuff but I hope you get the idea.</mark></p>
+                <p>About other skills....<mark>Learning!</mark></p>
+            </div>
+            <h2>Personal interets</h2>
+            <div class="Personal interests">
+                <p><mark>Molecular/ Cell/ Developmental Biology; Microbiology</mark></p>
+                <p><mark>programming+biology</mark></p>
+                <P><mark>But... curiosity knows no bounds. I am currently trying out various possibilities.</mark></P>
+                <P><mark>Please feel free to reach out and connect with me. I would be delighted to engage in conversations and exchange ideas!</mark></P>
+            </div>
+            <a href="mailto:{{ site.email }}" class="email-link">
+                <img src="/assets/icons/email-icon.png" alt="Email Icon" class="email-icon">
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+body {
+  font-family: 'Recursive', sans-serif;
+  background-color: #F5EEF8;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+}
+
+.personal-info {
+  margin-bottom: 30px;
+}
+
+.education {
+  margin-bottom: 30px;
+}
+/* Style the header and navigation */
+header {
+  background-color: #F5EEF8; /* 设置导航栏背景色 */
+  color: #fff; /* 设置文字颜色 */
+  padding: 10px 0; /* 设置上下内边距 */
+  font-family: 'Recursive', sans-serif;
+}
+
+nav ul {
+  display: flex; /* 设置导航栏横向显示 */
+  justify-content: center; /* 水平居中导航链接 */
+  font-family: 'Recursive', sans-serif;
+}
+
+nav ul li {
+  margin: 0 20px; /* 设置导航链接之间的水平间距 */
+}
+
+nav ul li a {
+  color: #76005b; /* 设置导航链接文字颜色 */
+  text-decoration: none; /* 移除链接下划线 */
+  font-size: 28px; /* 设置链接文字大小 */
+  font-weight: bold; /* 设置链接文字粗体 */
+  font-family: 'Recursive', sans-serif;
+}
+
+nav ul li a:hover {
+  color: #fe478d; /* 鼠标悬停时链接文字颜色 */
+}
