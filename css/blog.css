@@ -5,7 +5,11 @@ body, ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: 'Recursive', sans-serif; /* 添加字体样式 */
+  
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}/* 添加字体样式 */
 }
 header {
   background-color: #cfd6b3;
