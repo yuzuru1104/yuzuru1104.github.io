@@ -7,7 +7,9 @@ body, ul {
   list-style: none;
   font-family: 'Recursive', sans-serif; /* 添加字体样式 */
 }
-
+header {
+  background-color: #cfd6b3;
+}
 /* Style the header and navigation */
 header {
   background-color: #cfd6b3; /* 设置导航栏背景色 */
