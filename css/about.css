@@ -30,6 +30,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
 .profile h1 {
     margin: 0;
     font-size: 48px;
@@ -44,15 +45,19 @@ body {
 
 /* Top Image Section Styles */
 
+
 .top-image {
-    width: 100%;
-    height: 25vh;
-    overflow: hidden;
-    position: relative;
-    background-image: url('leaf.jpeg');
-    background-size: auto 100%;
-    background-position: top center;
+  width: 100%;
+  height: 25vh;
+  overflow: hidden;
+  position: relative;
+  background-image: url('leaf.jpeg');
+  background-size: 100% auto; /* 将宽度设置为100%以横向增长 */
+  background-position: top center;
 }
+
+
+
 .image-text {
     position: absolute;
     top: 50%;
