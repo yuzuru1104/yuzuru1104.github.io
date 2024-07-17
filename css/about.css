@@ -52,7 +52,8 @@ body {
   overflow: hidden;
   position: relative;
   background-image: url('leaf.jpeg');
-  background-size: 100% auto; /* 将宽度设置为100%以横向增长 */
+ 
+    background-size: cover; /* 调整背景图像的比例 */
   background-position: top center;
 }
 
