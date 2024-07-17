@@ -16,6 +16,11 @@ body {
     font-size: 24px; /* 减小字体大小 */
     text-align: center; /* 居中对齐 */
 }
+.gochi-hand-regular {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 
