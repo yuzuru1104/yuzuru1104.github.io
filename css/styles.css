@@ -33,7 +33,7 @@ body, ul {
   }
   /* 全局样式规则 */
 body, h1, h2, h3, h4, h5, h6, p, a, li, span, div {
-  font-family: 'Recursive', sans-serif;
+  font-family: 'Gochi Hand', cursive;
   /* 其他全局样式，例如颜色、边距等 */
   color: #fe478d;/* 设置文字颜色为深灰色 */
   margin: 0; /* 移除页面元素的默认外边距 */
