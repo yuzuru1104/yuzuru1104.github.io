@@ -22,7 +22,7 @@ body, ul {
   }
   
   nav ul li a {
-    color: #76005b; /* 设置导航链接文字颜色 */
+    color: #92a242; /* 设置导航链接文字颜色 */
     text-decoration: none; /* 移除链接下划线 */
     font-size: 28px; /* 设置链接文字大小 */
     font-weight: bold; /* 设置链接文字粗体 */
