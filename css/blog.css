@@ -16,7 +16,11 @@ header {
   background-color: #cfd6b3; /* 设置导航栏背景色 */
   color: #fff; /* 设置文字颜色 */
   padding: 10px 0; /* 设置上下内边距 */
-  font-family: 'Recursive', sans-serif;
+  
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 }
 
 nav ul {
