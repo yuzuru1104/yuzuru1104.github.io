@@ -1,7 +1,7 @@
 
 /* Global Styles */
 body {
-    background-color: #F5EEF8;
+    background-color: #cfd6b3;
     margin: 0;
     padding: 0;
 }
@@ -34,7 +34,7 @@ body {
 .profile h1 {
     margin: 0;
     font-size: 48px;
-    color: #76005b;
+    color: #92a242;
 }
 
 .profile p {
